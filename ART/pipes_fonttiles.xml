@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<gfx-xform version="1">
+    <input file="pipes_font.raw" type="raw" tile-width="8" tile-height="8" width="128" height="32" />
+    <output file="pipes_font.inc">
+        <tiles var-name="fonts"/>
+        <maps pointers-size="16">	
+	</maps>	
+    </output>
+</gfx-xform>

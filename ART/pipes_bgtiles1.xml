@@ -1,0 +1,228 @@
+<?xml version="1.0" ?>
+<gfx-xform version="1">
+    <input file="pipes_background1.raw" type="raw" tile-width="8" tile-height="8" width="256" height="256" />
+    <output file="pipes_BGTiles.pic.inc">
+        <tiles var-name="BGTiles"/>
+        <maps pointers-size="16">	
+	    <map var-name="GB_Black" left="0" top="0" width="1" height="1"/>   
+	    <map var-name="BG_Brown" left="1" top="0" width="1" height="1"/>   
+	    <map var-name="BG_Mixed" left="2" top="0" width="1" height="1"/>   
+	    <map var-name="frame_vertical" left="3" top="0" width="1" height="1"/>    
+	    <map var-name="frame_horizontal" left="4" top="0" width="1" height="1"/>    
+	    <map var-name="frame_upper_left" left="5" top="0" width="1" height="1"/>    
+	    <map var-name="frame_upper_right" left="6" top="0" width="1" height="1"/>    
+	    <map var-name="frame_lower_left" left="7" top="0" width="1" height="1"/>    
+	    <map var-name="frame_lower_right" left="8" top="0" width="1" height="1"/>    
+	    <map var-name="time_bar" left="9" top="0" width="1" height="1"/>    
+	    <map var-name="Start_sign" left="9" top="0" width="1" height="1"/>    
+	    <map var-name="End_sign" left="9" top="0" width="1" height="1"/>    
+		
+	    <map var-name="reservoir_ve" left="0" top="1" width="2" height="2"/>   
+	    <map var-name="reservoir_u1" left="2" top="1" width="2" height="2"/>   
+	    <map var-name="reservoir_u2" left="4" top="1" width="2" height="2"/>   
+	    <map var-name="reservoir_u3" left="6" top="1" width="2" height="2"/>   
+	    <map var-name="reservoir_d1" left="8" top="1" width="2" height="2"/>   
+	    <map var-name="reservoir_d2" left="10" top="1" width="2" height="2"/>   
+	    <map var-name="reservoir_d3" left="12" top="1" width="2" height="2"/>   
+	    <map var-name="reservoir_vf" left="14" top="1" width="2" height="2"/>   
+	    <map var-name="reservoir_he" left="16" top="1" width="2" height="2"/>   
+	    <map var-name="reservoir_r1" left="18" top="1" width="2" height="2"/>   
+	    <map var-name="reservoir_r2" left="20" top="1" width="2" height="2"/>   
+	    <map var-name="reservoir_r3" left="22" top="1" width="2" height="2"/>   
+	    <map var-name="reservoir_l3" left="24" top="1" width="2" height="2"/>   
+	    <map var-name="reservoir_l2" left="26" top="1" width="2" height="2"/>   
+	    <map var-name="reservoir_l1" left="28" top="1" width="2" height="2"/>   
+	    <map var-name="reservoir_hf" left="30" top="1" width="2" height="2"/>   
+
+	    <map var-name="empty_field" left="0" top="3" width="2" height="2"/>   
+	    <map var-name="pump_ve" left="2" top="3" width="2" height="2"/>   
+	    <map var-name="pump_he" left="4" top="3" width="2" height="2"/>   
+	    <map var-name="start_piece_de" left="6" top="3" width="2" height="2"/>   
+	    <map var-name="start_piece_d1" left="8" top="3" width="2" height="2"/>   
+	    <map var-name="start_piece_d2" left="10" top="3" width="2" height="2"/>   
+	    <map var-name="end_piece_u2" left="12" top="3" width="2" height="2"/>   
+	    <map var-name="end_piece_u1" left="14" top="3" width="2" height="2"/>   
+	    <map var-name="start_piece_df" left="16" top="3" width="2" height="2"/>   
+	    <map var-name="start_piece_ue" left="18" top="3" width="2" height="2"/>   
+	    <map var-name="start_piece_u1" left="20" top="3" width="2" height="2"/>   
+	    <map var-name="start_piece_u2" left="22" top="3" width="2" height="2"/>   
+	    <map var-name="end_piece_d2" left="24" top="3" width="2" height="2"/>   
+	    <map var-name="end_piece_d1" left="26" top="3" width="2" height="2"/>   
+	    <map var-name="start_piece_uf" left="28" top="3" width="2" height="2"/>   
+
+	    <map var-name="start_piece_re" left="0" top="5" width="2" height="2"/>   
+	    <map var-name="start_piece_r1" left="2" top="5" width="2" height="2"/>   
+	    <map var-name="start_piece_r2" left="4" top="5" width="2" height="2"/>   
+	    <map var-name="end_piece_l2" left="6" top="5" width="2" height="2"/>   
+	    <map var-name="end_piece_l1" left="8" top="5" width="2" height="2"/>   
+	    <map var-name="start_piece_rf" left="10" top="5" width="2" height="2"/>   
+	    <map var-name="start_piece_le" left="12" top="5" width="2" height="2"/>   
+	    <map var-name="start_piece_l1" left="14" top="5" width="2" height="2"/>   
+	    <map var-name="start_piece_l2" left="16" top="5" width="2" height="2"/>   
+	    <map var-name="end_piece_r2" left="18" top="5" width="2" height="2"/>   
+	    <map var-name="end_piece_r1" left="20" top="5" width="2" height="2"/>   
+	    <map var-name="start_piece_lf" left="22" top="5" width="2" height="2"/>   
+
+	    <map var-name="pump_u1" left="0" top="7" width="2" height="2"/>   
+	    <map var-name="pump_u2" left="2" top="7" width="2" height="2"/>   
+	    <map var-name="pump_u3" left="4" top="7" width="2" height="2"/>   
+	    <map var-name="pump_d1" left="6" top="7" width="2" height="2"/>   
+	    <map var-name="pump_d2" left="8" top="7" width="2" height="2"/>   
+	    <map var-name="pump_d3" left="10" top="7" width="2" height="2"/>   
+	    <map var-name="pump_vf" left="12" top="7" width="2" height="2"/>   
+	    <map var-name="pump_r1" left="14" top="7" width="2" height="2"/>   
+	    <map var-name="pump_r2" left="16" top="7" width="2" height="2"/>   
+	    <map var-name="pump_r3" left="18" top="7" width="2" height="2"/>   
+	    <map var-name="pump_l3" left="20" top="7" width="2" height="2"/>   
+	    <map var-name="pump_l2" left="22" top="7" width="2" height="2"/>   
+	    <map var-name="pump_l1" left="24" top="7" width="2" height="2"/>   
+	    <map var-name="pump_hf" left="26" top="7" width="2" height="2"/>   
+
+	    <map var-name="pipe_straight_ve" left="0" top="9" width="2" height="2"/>   
+	    <map var-name="pipe_straight_d1" left="2" top="9" width="2" height="2"/>   
+	    <map var-name="pipe_straight_d2" left="4" top="9" width="2" height="2"/>   
+	    <map var-name="pipe_straight_d3" left="6" top="9" width="2" height="2"/>   
+	    <map var-name="pipe_straight_u3" left="8" top="9" width="2" height="2"/>   
+	    <map var-name="pipe_straight_u2" left="10" top="9" width="2" height="2"/>   
+	    <map var-name="pipe_straight_u1" left="12" top="9" width="2" height="2"/>   
+	    <map var-name="pipe_straight_vf" left="14" top="9" width="2" height="2"/>   
+
+	    <map var-name="pipe_straight_he" left="16" top="9" width="2" height="2"/>   
+	    <map var-name="pipe_straight_r1" left="18" top="9" width="2" height="2"/>   
+	    <map var-name="pipe_straight_r2" left="20" top="9" width="2" height="2"/>   
+	    <map var-name="pipe_straight_r3" left="22" top="9" width="2" height="2"/>   
+	    <map var-name="pipe_straight_l3" left="24" top="9" width="2" height="2"/>   
+	    <map var-name="pipe_straight_l2" left="26" top="9" width="2" height="2"/>   
+	    <map var-name="pipe_straight_l1" left="28" top="9" width="2" height="2"/>   
+	    <map var-name="pipe_straight_hf" left="30" top="9" width="2" height="2"/>   
+
+	    <map var-name="pipe_edge_ul_e" left="0" top="11" width="2" height="2"/>   
+	    <map var-name="pipe_edge_ul_r1" left="2" top="11" width="2" height="2"/>   
+	    <map var-name="pipe_edge_ul_r2" left="4" top="11" width="2" height="2"/>   
+	    <map var-name="pipe_edge_ul_r3" left="6" top="11" width="2" height="2"/>   
+	    <map var-name="pipe_edge_ul_d3" left="8" top="11" width="2" height="2"/>   
+	    <map var-name="pipe_edge_ul_d2" left="10" top="11" width="2" height="2"/>   
+	    <map var-name="pipe_edge_ul_d1" left="12" top="11" width="2" height="2"/>   
+	    <map var-name="pipe_edge_ul_f" left="14" top="11" width="2" height="2"/>   
+
+	    <map var-name="pipe_edge_ur_e" left="0" top="13" width="2" height="2"/>   
+	    <map var-name="pipe_edge_ur_d1" left="2" top="13" width="2" height="2"/>   
+	    <map var-name="pipe_edge_ur_d2" left="4" top="13" width="2" height="2"/>   
+	    <map var-name="pipe_edge_ur_d3" left="6" top="13" width="2" height="2"/>   
+	    <map var-name="pipe_edge_ur_l3" left="8" top="13" width="2" height="2"/>   
+	    <map var-name="pipe_edge_ur_l2" left="10" top="13" width="2" height="2"/>   
+	    <map var-name="pipe_edge_ur_l1" left="12" top="13" width="2" height="2"/>   
+	    <map var-name="pipe_edge_ur_f" left="14" top="13" width="2" height="2"/>   
+
+	    <map var-name="pipe_edge_dr_e" left="0" top="15" width="2" height="2"/>   
+	    <map var-name="pipe_edge_dr_u1" left="2" top="15" width="2" height="2"/>   
+	    <map var-name="pipe_edge_dr_u2" left="4" top="15" width="2" height="2"/>   
+	    <map var-name="pipe_edge_dr_u3" left="6" top="15" width="2" height="2"/>   
+	    <map var-name="pipe_edge_dr_l3" left="8" top="15" width="2" height="2"/>   
+	    <map var-name="pipe_edge_dr_l2" left="10" top="15" width="2" height="2"/>   
+	    <map var-name="pipe_edge_dr_l1" left="12" top="15" width="2" height="2"/>   
+	    <map var-name="pipe_edge_dr_f" left="14" top="15" width="2" height="2"/>   
+
+	    <map var-name="pipe_edge_dl_e" left="0" top="17" width="2" height="2"/>   
+	    <map var-name="pipe_edge_dl_r1" left="2" top="17" width="2" height="2"/>   
+	    <map var-name="pipe_edge_dl_r2" left="4" top="17" width="2" height="2"/>   
+	    <map var-name="pipe_edge_dl_r3" left="6" top="17" width="2" height="2"/>   
+	    <map var-name="pipe_edge_dl_u3" left="8" top="17" width="2" height="2"/>   
+	    <map var-name="pipe_edge_dl_u2" left="10" top="17" width="2" height="2"/>   
+	    <map var-name="pipe_edge_dl_u1" left="12" top="17" width="2" height="2"/>   
+	    <map var-name="pipe_edge_dl_f" left="14" top="17" width="2" height="2"/>   
+
+	    <map var-name="pipe_cross_ve_he" left="0" top="19" width="2" height="2"/>   
+	    <map var-name="pipe_cross_ve_r1" left="2" top="19" width="2" height="2"/>   
+	    <map var-name="pipe_cross_ve_r2" left="4" top="19" width="2" height="2"/>   
+	    <map var-name="pipe_cross_ve_r3" left="6" top="19" width="2" height="2"/>   
+	    <map var-name="pipe_cross_ve_l3" left="8" top="19" width="2" height="2"/>   
+	    <map var-name="pipe_cross_ve_l2" left="10" top="19" width="2" height="2"/>   
+	    <map var-name="pipe_cross_ve_l1" left="12" top="19" width="2" height="2"/>   
+	    <map var-name="pipe_cross_ve_hf" left="14" top="19" width="2" height="2"/>   
+
+	    <map var-name="pipe_cross_d1_he" left="16" top="19" width="2" height="2"/>   
+	    <map var-name="pipe_cross_d1_r1" left="18" top="19" width="2" height="2"/>   
+	    <map var-name="pipe_cross_d1_r2" left="20" top="19" width="2" height="2"/>   
+	    <map var-name="pipe_cross_d1_r3" left="22" top="19" width="2" height="2"/>   
+	    <map var-name="pipe_cross_d1_l3" left="24" top="19" width="2" height="2"/>   
+	    <map var-name="pipe_cross_d1_l2" left="26" top="19" width="2" height="2"/>   
+	    <map var-name="pipe_cross_d1_l1" left="28" top="19" width="2" height="2"/>   
+	    <map var-name="pipe_cross_d1_hf" left="30" top="19" width="2" height="2"/>   
+
+	    <map var-name="pipe_cross_d2_he" left="0" top="21" width="2" height="2"/>   
+	    <map var-name="pipe_cross_d2_r1" left="2" top="21" width="2" height="2"/>   
+	    <map var-name="pipe_cross_d2_r2" left="4" top="21" width="2" height="2"/>   
+	    <map var-name="pipe_cross_d2_r3" left="6" top="21" width="2" height="2"/>   
+	    <map var-name="pipe_cross_d2_l3" left="8" top="21" width="2" height="2"/>   
+	    <map var-name="pipe_cross_d2_l2" left="10" top="21" width="2" height="2"/>   
+	    <map var-name="pipe_cross_d2_l1" left="12" top="21" width="2" height="2"/>   
+	    <map var-name="pipe_cross_d2_hf" left="14" top="21" width="2" height="2"/>   
+
+	    <map var-name="pipe_cross_u1_he" left="16" top="21" width="2" height="2"/>   
+	    <map var-name="pipe_cross_u1_r1" left="18" top="21" width="2" height="2"/>   
+	    <map var-name="pipe_cross_u1_r2" left="20" top="21" width="2" height="2"/>   
+	    <map var-name="pipe_cross_u1_r3" left="22" top="21" width="2" height="2"/>   
+	    <map var-name="pipe_cross_u1_l3" left="24" top="21" width="2" height="2"/>   
+	    <map var-name="pipe_cross_u1_l2" left="26" top="21" width="2" height="2"/>   
+	    <map var-name="pipe_cross_u1_l1" left="28" top="21" width="2" height="2"/>   
+	    <map var-name="pipe_cross_u1_hf" left="30" top="21" width="2" height="2"/>   
+
+	    <map var-name="pipe_cross_u2_he" left="0" top="23" width="2" height="2"/>   
+	    <map var-name="pipe_cross_u2_r1" left="2" top="23" width="2" height="2"/>   
+	    <map var-name="pipe_cross_u2_r2" left="4" top="23" width="2" height="2"/>   
+	    <map var-name="pipe_cross_u2_r3" left="6" top="23" width="2" height="2"/>   
+	    <map var-name="pipe_cross_u2_l3" left="8" top="23" width="2" height="2"/>   
+	    <map var-name="pipe_cross_u2_l2" left="10" top="23" width="2" height="2"/>   
+	    <map var-name="pipe_cross_u2_l1" left="12" top="23" width="2" height="2"/>   
+	    <map var-name="pipe_cross_u2_hf" left="14" top="23" width="2" height="2"/>   
+
+	    <map var-name="pipe_cross_vf_he" left="16" top="23" width="2" height="2"/>   
+	    <map var-name="pipe_cross_vf_r1" left="18" top="23" width="2" height="2"/>   
+	    <map var-name="pipe_cross_vf_r2" left="20" top="23" width="2" height="2"/>   
+	    <map var-name="pipe_cross_vf_r3" left="22" top="23" width="2" height="2"/>   
+	    <map var-name="pipe_cross_vf_l3" left="24" top="23" width="2" height="2"/>   
+	    <map var-name="pipe_cross_vf_l2" left="26" top="23" width="2" height="2"/>   
+	    <map var-name="pipe_cross_vf_l1" left="28" top="23" width="2" height="2"/>   
+	    <map var-name="pipe_cross_vf_hf" left="30" top="23" width="2" height="2"/>   
+
+	    <map var-name="pipe_arrow_up_ve" left="0" top="25" width="2" height="2"/>   
+	    <map var-name="pipe_arrow_up_u1" left="2" top="25" width="2" height="2"/>   
+	    <map var-name="pipe_arrow_up_u2" left="4" top="25" width="2" height="2"/>   
+	    <map var-name="pipe_arrow_up_u3" left="6" top="25" width="2" height="2"/>   
+	    <map var-name="pipe_arrow_up_vf" left="8" top="25" width="2" height="2"/>   
+	    <map var-name="pipe_arrow_dwn_ve" left="10" top="25" width="2" height="2"/>   
+	    <map var-name="pipe_arrow_dwn_d1" left="12" top="25" width="2" height="2"/>   
+	    <map var-name="pipe_arrow_dwn_d2" left="14" top="25" width="2" height="2"/>   
+	    <map var-name="pipe_arrow_dwn_d3" left="16" top="25" width="2" height="2"/>   
+	    <map var-name="pipe_arrow_dwn_vf" left="18" top="25" width="2" height="2"/>   
+
+	    <map var-name="pipe_arrow_left_he" left="0" top="27" width="2" height="2"/>   
+	    <map var-name="pipe_arrow_left_l3" left="2" top="27" width="2" height="2"/>   
+	    <map var-name="pipe_arrow_left_l2" left="4" top="27" width="2" height="2"/>   
+	    <map var-name="pipe_arrow_left_l1" left="6" top="27" width="2" height="2"/>   
+	    <map var-name="pipe_arrow_left_hf" left="8" top="27" width="2" height="2"/>   
+	    <map var-name="pipe_arrow_right_he" left="10" top="27" width="2" height="2"/>   
+	    <map var-name="pipe_arrow_right_r1" left="12" top="27" width="2" height="2"/>   
+	    <map var-name="pipe_arrow_right_r2" left="14" top="27" width="2" height="2"/>   
+	    <map var-name="pipe_arrow_right_r3" left="16" top="27" width="2" height="2"/>   
+	    <map var-name="pipe_arrow_right_hf" left="18" top="27" width="2" height="2"/>   
+
+	    <map var-name="cursor_straight_hor" left="0" top="29" width="2" height="2"/>   
+	    <map var-name="cursor_straight_ver" left="2" top="29" width="2" height="2"/>   		
+	    <map var-name="cursor_edge_ur" left="4" top="29" width="2" height="2"/>   
+	    <map var-name="cursor_edge_ul" left="6" top="29" width="2" height="2"/>   
+	    <map var-name="cursor_edge_dl" left="8" top="29" width="2" height="2"/>   
+	    <map var-name="cursor_edge_dr" left="10" top="29" width="2" height="2"/>   	    
+	    <map var-name="cursor_arrow_left" left="12" top="29" width="2" height="2"/>   
+	    <map var-name="cursor_arrow_right" left="14" top="29" width="2" height="2"/>   
+	    <map var-name="cursor_arrow_up" left="16" top="29" width="2" height="2"/>   
+	    <map var-name="cursor_arrow_down" left="18" top="29" width="2" height="2"/>   	    
+	    <map var-name="cursor_cross" left="20" top="29" width="2" height="2"/>   
+	    <map var-name="explosion_1" left="22" top="29" width="2" height="2"/>   
+	    <map var-name="explosion_2" left="24" top="29" width="2" height="2"/>   	    
+	    <map var-name="explosion_3" left="26" top="29" width="2" height="2"/>   
+	    
+	</maps>	
+    </output>
+</gfx-xform>
